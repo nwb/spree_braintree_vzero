@@ -13,7 +13,6 @@ shippingAddressOverride: {
   countryCodeAlpha2: '<%= shipping_address.country.try(:iso) %>',
   postalCode: '<%= shipping_address.zipcode %>',
   region: '<%= shipping_address.state.try(:abbr) %>',
-  phone: '<%= shipping_address.phone %>',
   editable: false
 },
 
